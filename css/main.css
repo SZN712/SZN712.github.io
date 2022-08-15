@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffe0c9;
+  background: #46c41d;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2346,7 +2346,7 @@ ul.breadcrumb li + li:last-child {
   border-bottom-color: #fc6423;
 }
 .sidebar {
-  background: url("/images/background.png");
+  background: url("/images/background.gif");
   box-shadow: none;
   margin-top: 100%;
   position: static;
@@ -2626,6 +2626,7 @@ body {
   background: url("/images/background.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   background-position: 50% 50%;
   color: var(--text-color);
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
